@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package services;
+option go_package ="./;protos";
+
+message dUserModel {
+  uint32 ID = 1;
+  string UserName = 2;
+  int64 CreateAt = 3;
+  int64 UpdateAt = 4;
+  int64 DeleteAt = 5;
+}
