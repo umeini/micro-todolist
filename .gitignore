@@ -15,4 +15,5 @@
 # vendor/
 user/conf/config.ini
 user/go.sum
+.idea
 
